@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2 {
+    
+        height: 150px;
+        border: 2px solid rgb(102, 155, 128);
+        padding: 50px; 
+        background-color: rgb(152, 219, 114);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+}
+
