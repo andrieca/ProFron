@@ -1,0 +1,276 @@
+/* .items{
+    border:2px solid blueviolet;
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 1fr 0.5fr 1fr 1fr 1fr 1fr;
+} */
+
+/* задача 1 */
+/* .item:nth-child(1){
+    background-color: aqua;
+}
+
+.item:nth-child(2){
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-color: yellowgreen;
+}
+.item:nth-child(3){
+    grid-column:4/6;
+    grid-row: 1/5;
+    background-color: brown;
+}
+.item:nth-child(4){
+    background-color: rgb(131, 194, 90);
+}
+.item:nth-child(5){
+    background-color: rgb(210, 233, 60);
+}
+.item:nth-child(6){
+    background-color: rgb(173, 113, 228);
+}
+.item:nth-child(7){
+    background-color: blue;
+}
+.item:nth-child(8){
+    background-color: rgb(240, 76, 76);
+}
+.item:nth-child(9){
+    background-color: rgb(31, 30, 30);
+}
+.item:nth-child(10){
+    background-color: rgb(75, 75, 134);
+}
+.item:nth-child(11){
+    grid-column: span 3;
+    background-color: green;
+}
+.item:nth-child(12){
+    background-color: rgb(206, 206, 95);
+}
+.item{
+    border:2px solid rgb(250, 248, 248);
+    color: azure;
+    font-size: 20px;
+
+} */
+
+
+
+
+
+/* задача 2 */
+/* .items{
+    border:2px dotted blueviolet;
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template:repeat(6, 1fr)/repeat(10, 1fr);
+}
+.item:nth-child(1){
+    background-color: aqua;
+    grid-column: 6/8;
+    grid-row: 1/3;
+}
+
+.item:nth-child(2){
+    grid-column: 4/ span 2;
+    grid-row: 4/ span 2;
+    background-color: yellowgreen;
+}
+.item:nth-child(3){
+    grid-column: 9/ span 2;
+    grid-row: 2/span 2;
+    background-color: rgb(175, 127, 127);
+}
+.item:nth-child(4){
+    grid-column: 6 / span 2;
+    grid-row: 5 / span 2;
+    background-color: rgb(131, 194, 90);
+}
+.item:nth-child(5){
+    grid-column-start: 3;
+    grid-row: 2/ span 2;
+    background-color: rgb(210, 233, 60);
+}
+.item:nth-child(6){
+    grid-column:4/ span 2 ;
+    grid-row: 2/ span 2;
+    background-color: rgb(173, 113, 228);
+}
+.item:nth-child(7){
+    grid-column-start:1 ; 
+    grid-row-start:4; 
+    background-color: blue;
+}
+.item:nth-child(8){
+    grid-column:6/ span 2; 
+    grid-row-start:3 ;
+    background-color: rgb(246, 180, 180);
+}
+.item:nth-child(9){
+    grid-column: 3/5;
+    grid-row-start: 1;
+    background-color: rgb(31, 30, 30);
+}
+.item:nth-child(10){
+    grid-column:9/ span 2 ;
+    grid-row-start: 6;
+    background-color: rgb(75, 75, 134);
+}
+.item:nth-child(11){
+    grid-row: 2/span 2;
+    background-color: green;
+}
+.item:nth-child(12){
+    grid-column: 4/ span 2;
+    grid-row-start: 6;
+    background-color: rgb(206, 206, 95);
+}
+.item:nth-child(13){
+    grid-column:1/3;
+    grid-row: 1/3;
+    background-color: brown;
+}
+.item:nth-child(14){
+    grid-column:7 / span 2; 
+    grid-row-start: 4;
+    background-color: rgb(131, 194, 90);
+}
+.item:nth-child(15){
+    grid-column-start: 10;
+    grid-row-start:1 ;
+    background-color: rgb(210, 233, 60);
+}
+.item:nth-child(16){
+    grid-column: 2/ span 2; 
+    grid-row: 4;
+    background-color: rgb(173, 113, 228);
+}
+.item:nth-child(17){
+    grid-column-start: 3;
+    grid-row: 5/ span 2;
+    background-color: rgb(96, 131, 225);
+}
+.item:nth-child(18){
+    grid-column-start: 5;
+    grid-row-start: 1;
+    background-color: rgb(240, 76, 76);
+}
+.item:nth-child(19){
+    grid-column-start: 6; 
+    grid-row-start: 4;
+    background-color: rgb(31, 30, 30);
+}
+.item:nth-child(20){
+    grid-column: 8/ span 2;
+    grid-row-start: 1;
+    background-color: rgb(75, 75, 134);
+}
+.item:nth-child(21){
+    grid-column:9/ span 2; 
+    grid-row: 4/ span 2;
+    background-color: rgb(116, 176, 116);
+}
+.item:nth-child(22){
+    grid-column:1 / span 2; 
+    grid-row-start: 3;
+    background-color: rgb(206, 206, 95);
+}
+.item:nth-child(23){
+    grid-row: span 2;
+    background-color: brown;
+}
+.item:nth-child(24){
+    grid-column: 1/ span 2;
+    grid-row: 5/ span 2;
+    background-color: rgb(131, 194, 90);
+}
+.item{
+    border:2px dotted rgb(59, 31, 75);
+    color: azure;
+    font-size: 20px;
+    text-align:center;
+    
+} */
+
+
+
+/* Задача3 */
+/* .kartes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-rows: repeat(3,200px);
+    background-color: rgb(69, 69, 237);
+    padding-top: 0;
+    border: none;
+}
+ div{
+    text-align: center;
+    padding-top: 20px;
+    border: 5px solid gray;
+
+}
+div:nth-child(3){
+    grid-column: 7;
+    border: 4px solid yellow;
+    color: yellow;
+
+}
+div:nth-child(8){
+    border: 4px solid yellow;
+    color: yellow;
+
+}
+div:nth-child(9){
+    border: 4px solid yellow;
+    color: yellow;
+
+}
+div:nth-child(2){
+    border: 4px solid yellow;
+    color: yellow;
+
+}div:nth-child(15){
+    grid-column: 3;
+    border: 4px solid yellow;
+    color: yellow;
+
+} */
+
+
+
+/* задача 4 */
+.spring{
+    width: 1100px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(50px, 1fr));
+    grid-template-rows: repeat(5, 100px);
+    margin-left: 500px;
+
+}
+.foto{
+    background-image: url('sad_9.jpg');
+    grid-column: 1/ span 4;
+    grid-row: 1/ span 5;
+}
+.text{
+    background-color: rgb(124, 211, 124);
+    grid-column: 4/ span 3;
+    grid-row: 3 / span 2;
+}
+.tulpan{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    grid-gap :10px 40px;
+    justify-content: space-evenly;
+    margin: 100px 200px;
+
+}
+img{
+    width: 170px;
+    height: 170px;
+
+}
